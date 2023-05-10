@@ -4,7 +4,7 @@ PromptBaba is an open-source AI prompting tool that helps you discover, create, 
 
 ## Live Demo
 
-https://prompt-baba.vercel.app/
+https://prompt-baba-niteshpk.vercel.app/
 
 ## Screenshots
 
