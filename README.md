@@ -6,6 +6,16 @@ PromptBaba is an open-source AI prompting tool that helps you discover, create, 
 
 https://prompt-baba.vercel.app/
 
+## Screenshots
+
+### Website
+
+![website-page](https://github.com/niteshpk/prompt-baba/assets/25909806/9b149c61-4cec-4c91-ba15-05918c2d2da5)
+
+### Mobile
+
+![mobile-view](https://github.com/niteshpk/prompt-baba/assets/25909806/212daf24-797e-4544-af2c-239a50e75de5)
+
 ## Features
 
 - Discover and share AI-powered prompts
@@ -15,8 +25,6 @@ https://prompt-baba.vercel.app/
 - Copy prompts to clipboard
 - Edit/Delete prompts (if you are a creator of that prompt)
 - View profiles of other prompt creators and their prompts
-
-Sure, here's an example of how you could add instructions in your README.md file to create a .env file and add the constants:
 
 ## Getting started
 
