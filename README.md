@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# PromptBaba
 
-## Getting Started
+PromptBaba is an open-source AI prompting tool that helps you discover, create, and share creative prompts for the modern world. With the increasing use of chatbots powered by AI, PromptBaba makes it easy to find and share prompts that you can use to charge up your AI-powered chatbot.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+https://prompt-baba.vercel.app/
+
+## Features
+
+- Discover and share AI-powered prompts
+- Login using NextAuth and Google authentication
+- Browse prompts by tags, usernames, and content
+- Search for prompts by keyword
+- Copy prompts to clipboard
+- Edit/Delete prompts (if you are a creator of that prompt)
+- View profiles of other prompt creators and their prompts
+
+Sure, here's an example of how you could add instructions in your README.md file to create a .env file and add the constants:
+
+## Getting started
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/your-username/promptbaba.git
+cd promptbaba
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Create a `.env` file in the root of your project:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```sh
+touch .env
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Add the following constants to your `.env` file:
 
-## Learn More
+```sh
+GOOGLE_ID=your-google-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+MONGODB_URI=your-mongodb-uri
+NEXTAUTH_URL=your-nextauth-url
+NEXTAUTH_URL_INTERNAL=your-nextauth-internal-url
+NEXTAUTH_SECRET=your-nextauth-secret
+```
 
-To learn more about Next.js, take a look at the following resources:
+Replace the `your-google-id`, `your-google-client-secret`, `your-mongodb-uri`, `your-nextauth-url`, `your-nextauth-internal-url`, and `your-nextauth-secret` placeholders with the appropriate values for your project.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Install the dependencies and start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```sh
+npm install
+npm run dev
+```
 
-## Deploy on Vercel
+By following these steps, you will have created a `.env` file and added the necessary constants to it. Now you can run your PromptBaba application locally.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We welcome contributions from the community! If you'd like to contribute to PromptBaba, please fork the repository and submit a pull request with your changes.
+
+## License
+
+PromptBaba is released under the MIT License.
